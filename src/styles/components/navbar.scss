@@ -10,6 +10,9 @@
     border-bottom: 1px solid #000;
     align-items: center;
     justify-content: flex-start;
+    position: fixed;
+    width: 95vw;
+    z-index: 1;
 
     &_right{
         margin-left: auto;   

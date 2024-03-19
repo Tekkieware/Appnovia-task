@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
+
+
+.home{
+    &_text{
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        font-size: 29px;
+        font-weight: 400;
+    }
 }

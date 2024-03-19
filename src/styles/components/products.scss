@@ -1,0 +1,43 @@
+.products{
+    padding-left: 80px;
+    padding-right: 80px;
+
+    &_filter{
+        display: flex;
+        align-items: flex-start;
+
+        &-left{
+            display: flex;
+
+            &_item{
+                font-weight: 600;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding-right: 30px;
+            }
+        }
+
+        &-right{
+            margin-left: auto;
+
+            &_item{
+                font-weight: 600;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding-right: 10px;
+                align-items: center;
+                display: flex;
+            }
+        }
+
+        
+    }
+
+    &_list{
+        display: flex;
+        column-count: 4;
+        width: 100%;
+        
+    }
+
+}
