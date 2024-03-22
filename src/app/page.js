@@ -1,4 +1,5 @@
 import BlogBanner from "@/components/BlogBanner";
+import BlogPosts from "@/components/BlogPosts";
 import Brands from "@/components/Brands";
 import CollectionAd from "@/components/CollectionAd";
 import Hero from "@/components/HeroSlider";
@@ -20,6 +21,7 @@ export default function Home() {
    <Testimonials />
    <Brands />
    <BlogBanner />
+   <BlogPosts />
    </>
   );
 }
