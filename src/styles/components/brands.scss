@@ -1,0 +1,14 @@
+.brands{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
