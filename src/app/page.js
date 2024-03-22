@@ -3,6 +3,7 @@ import BlogBanner from "@/components/BlogBanner";
 import BlogPosts from "@/components/BlogPosts";
 import Brands from "@/components/Brands";
 import CollectionAd from "@/components/CollectionAd";
+import Gallery from "@/components/Gallery";
 import Hero from "@/components/HeroSlider";
 import Navbar from "@/components/Navbar";
 import NewsletterBanner from "@/components/NewsletterBanner";
@@ -28,6 +29,7 @@ export default function Home() {
    <NewsletterBanner />
    <Artists />
    <Socials />
+   <Gallery />
    </>
   );
 }
