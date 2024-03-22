@@ -1,8 +1,10 @@
 import Artists from "@/components/Artists";
+import Benefits from "@/components/Benefits";
 import BlogBanner from "@/components/BlogBanner";
 import BlogPosts from "@/components/BlogPosts";
 import Brands from "@/components/Brands";
 import CollectionAd from "@/components/CollectionAd";
+import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/HeroSlider";
 import Navbar from "@/components/Navbar";
@@ -30,6 +32,8 @@ export default function Home() {
    <Artists />
    <Socials />
    <Gallery />
+   <Benefits />
+   <Footer />
    </>
   );
 }
