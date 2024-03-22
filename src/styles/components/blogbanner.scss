@@ -3,8 +3,28 @@
     width: 100%;
     position: relative;
     flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+    justify-content: center;
 
     &_overlay{
         position: absolute;
+
+        &-title{
+            font-size: 60px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        &-link{
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: underline;
+            text-align: center;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
     }
 }
