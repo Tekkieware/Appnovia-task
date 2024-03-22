@@ -4,6 +4,7 @@ import BlogBanner from "@/components/BlogBanner";
 import BlogPosts from "@/components/BlogPosts";
 import Brands from "@/components/Brands";
 import CollectionAd from "@/components/CollectionAd";
+import Copyright from "@/components/Copyright";
 import Footer from "@/components/Footer";
 import Gallery from "@/components/Gallery";
 import Hero from "@/components/HeroSlider";
@@ -34,6 +35,7 @@ export default function Home() {
    <Gallery />
    <Benefits />
    <Footer />
+   <Copyright />
    </>
   );
 }
