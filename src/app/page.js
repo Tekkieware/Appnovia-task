@@ -1,3 +1,4 @@
+import Artists from "@/components/Artists";
 import BlogBanner from "@/components/BlogBanner";
 import BlogPosts from "@/components/BlogPosts";
 import Brands from "@/components/Brands";
@@ -24,6 +25,7 @@ export default function Home() {
    <BlogBanner />
    <BlogPosts />
    <NewsletterBanner />
+   <Artists />
    </>
   );
 }
