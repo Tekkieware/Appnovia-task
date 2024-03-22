@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/images/logo.png";
 import Image from "next/image";
 import { IoSearch } from "react-icons/io5";
-import { BsCart } from "react-icons/bs";
+import { BsBag } from "react-icons/bs";
 import { FaRegBookmark } from "react-icons/fa6";
 import { FaRegUser } from "react-icons/fa";
 
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className="navbar_right">
         <ul className="navbar_list">
         <li className="navbar_items">Search &nbsp;<IoSearch /></li>
-        <li className="navbar_items">Cart &nbsp;<BsCart /> 0</li>
+        <li className="navbar_items">Cart &nbsp;<BsBag /> 0</li>
         <li className="navbar_items"><FaRegBookmark /> 0</li>
         <li className="navbar_items"><FaRegUser /></li>
         </ul>
