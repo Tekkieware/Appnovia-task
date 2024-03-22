@@ -7,6 +7,7 @@ import Hero from "@/components/HeroSlider";
 import Navbar from "@/components/Navbar";
 import NewsletterBanner from "@/components/NewsletterBanner";
 import Products from "@/components/Products";
+import Socials from "@/components/Socials";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 
@@ -26,6 +27,7 @@ export default function Home() {
    <BlogPosts />
    <NewsletterBanner />
    <Artists />
+   <Socials />
    </>
   );
 }
