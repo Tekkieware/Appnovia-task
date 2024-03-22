@@ -1,4 +1,94 @@
-.footer{
+.footer {
     display: flex;
-    
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 60px;
+    gap: 30px;
+
+    &_item {
+        flex: 15%;
+        display: flex;
+        flex-direction: column;
+
+        &-text {
+            font-size: 16px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        &-title {
+            font-size: 13;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        &-list {
+            font-size: 13px;
+            font-weight: 400;
+            list-style-type: none;
+
+            &_dummy {
+                background-color: #000;
+                margin-bottom: 10px;
+                width: 100px;
+                height: 20px;
+            }
+
+        }
+
+        &-newsletter {
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+
+            &_title {
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                line-height: 1.2;
+            }
+
+            &_input {
+                display: flex;
+                margin-top: 10px;
+                border-bottom: 1px solid #000;
+                width: 100%;
+
+                &-textbox {
+                    background-color: transparent;
+                    border: none;
+                    font-size: 13px;
+                    font-weight: 400;
+                    font-family: "Nunito Sans", sans-serif;
+                    width: 80%;
+                    outline: none;
+
+
+                }
+
+                &-textbox::placeholder {
+                    color: #000;
+                    opacity: 1;
+                }
+
+                &-arrow {
+                    margin-left: auto;
+                }
+            }
+        }
+
+        @media only screen and (max-width: 700px) {
+            flex: 30%;
+        }
+
+        @media only screen and (max-width: 400px) {
+            flex: 100%;
+        }
+    }
 }
