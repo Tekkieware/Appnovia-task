@@ -4,6 +4,7 @@ import Brands from "@/components/Brands";
 import CollectionAd from "@/components/CollectionAd";
 import Hero from "@/components/HeroSlider";
 import Navbar from "@/components/Navbar";
+import NewsletterBanner from "@/components/NewsletterBanner";
 import Products from "@/components/Products";
 import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
@@ -22,6 +23,7 @@ export default function Home() {
    <Brands />
    <BlogBanner />
    <BlogPosts />
+   <NewsletterBanner />
    </>
   );
 }
