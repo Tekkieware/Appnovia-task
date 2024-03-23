@@ -6,7 +6,7 @@ import leatherJacket from "../../assets/images/leather jacket.png";
 import balckOutfit from "../../assets/images/black outfit.png";
 import tShirt from "../../assets/images/t-shirt.png";
 import blackVest from "../../assets/images/black vest.png";
-import biegeTshirt from "../../assets/images/Beige T-shirt.png";
+import biegeTshirt from "../../assets/images/BeigeTShirt.png";
 import Image from "next/image";
 import { BsBag } from "react-icons/bs";
 import { CiBookmark } from "react-icons/ci";
