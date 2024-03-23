@@ -7,7 +7,7 @@ const NewsletterBanner = () => {
   return (
     <div className='newsletterbanner'>
         <div className='newsletterbanner_image'>
-           <Image src={newsletterbanner} height={0} width={0} alt='Newsletter' style={{width: "100%", height: "auto", objectFit: "cover"}} />
+           <Image src={newsletterbanner} height={0} width={0} alt='Newsletter' style={{width: "100%", height: "400px", objectFit: "cover"}} />
         </div>
         <div className='newsletterbanner_overlay'>
             <div className='newsletterbanner_overlay-title'>

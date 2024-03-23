@@ -2,8 +2,8 @@
 
 .navbar{
     background-color: transparent;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     display: flex;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -11,19 +11,51 @@
     align-items: center;
     justify-content: flex-start;
     position: fixed;
-    width: 95vw;
+    width: 100vw;
     z-index: 1;
 
     &_right{
         margin-left: auto;   
+
+        &-list{
+            list-style-type: none;
+            display: flex;
+            margin-left: 40px;
+            justify-content: space-between;
+        }
     }
 
-    &_list{
-        list-style-type: none;
-        display: flex;
-        margin-left: 40px;
-        justify-content: space-between;
+    &_left{
+        @media only screen and (max-width: 992px){
+            display: none;
+        }
+        &-list{
+            list-style-type: none;
+            display: flex;
+            margin-left: 40px;
+            justify-content: space-between;
+        }
     }
+
+    &_mobile{
+        @media only screen and (min-width: 992px){
+            display: none;
+        }
+        &-list{
+            list-style-type: none;
+            display: flex;
+            padding-right: 25px;
+            flex-direction: column;
+            align-items: flex-end;
+            position: fixed;
+            top: 80px;
+            right: 20px;
+            justify-content: space-between;
+            height: 150px;
+        }
+    }
+
+    
 
     &_items{
         padding-left: 10px;
@@ -33,5 +65,11 @@
         line-height: 16px;
         display: flex;
         align-items: center;
+
+        &-menu{
+            @media only screen and (min-width: 992px){
+                display: none;
+            }
+        }
     }
 }

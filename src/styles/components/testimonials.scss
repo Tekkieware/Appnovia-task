@@ -5,10 +5,16 @@
     position: relative;
     padding: 40px;
 
+    @media only screen and (max-width: 726px){
+        padding: 10px;
+    }
+
     &_text{
         font-size: 25px;
         font-weight: 400;
         text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
     }
 
     &_overlay{
@@ -20,6 +26,10 @@
         align-items: center;
         justify-content: center;
         height: 100%;
+        @media only screen and (max-width: 726px){
+            padding-left: 0;
+        padding-right: 0;
+        }
 
         &-next{
             margin-left: auto;

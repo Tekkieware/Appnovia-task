@@ -2,19 +2,31 @@
     padding-left: 80px;
     padding-right: 80px;
 
+    @media only screen and (max-width: 596px){
+        flex-direction: column;
+    
+    }
     &_filter{
         display: flex;
         align-items: flex-start;
         padding-left: 10px;
-
+       
         &-left{
             display: flex;
+
+            @media only screen and (max-width: 596px){
+                flex-direction: column;
+            
+            }
 
             &_item{
                 font-weight: 600;
                 font-size: 11px;
                 text-transform: uppercase;
                 padding-right: 30px;
+                @media only screen and (max-width: 596px){
+                    padding-right: 5px;
+                }
             }
         }
 

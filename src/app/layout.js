@@ -1,5 +1,6 @@
 import { Noto_Sans } from "next/font/google";
 import "../styles/index.scss"
+import Navbar from "@/components/Navbar";
 
 const noto_sans = Noto_Sans({ subsets: ["latin"] });
 

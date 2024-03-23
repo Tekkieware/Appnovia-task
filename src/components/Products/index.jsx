@@ -32,11 +32,11 @@ const Products = () => {
   return (
     <div className="products">
       <div className="products_filter">
-        <div className="products_filer-left">
-          <span className="products_filter-left_item">All Products</span>
-          <span className="products_filter-left_item">LifeStyle</span>
-          <span className="products_filter-left_item">Brand</span>
-          <span className="products_filter-left_item">OutWear</span>
+        <div className="products_filter-left">
+          <div className="products_filter-left_item">All Products</div>
+          <div className="products_filter-left_item">LifeStyle</div>
+          <div className="products_filter-left_item">Brand</div>
+          <div className="products_filter-left_item">OutWear</div>
         </div>
         <div className="products_filter-right">
           <span className="products_filter-right_item">
